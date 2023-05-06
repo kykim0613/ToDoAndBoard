@@ -4,8 +4,8 @@ const Home = () => {
 
     return (
         <>
-            <Link to={`/ToDoAndBoard/ToDo`}>ToDoList</Link><br />
-            <Link to={`/ToDoAndBoard/Board`}>Board</Link>
+            <Link style={{textDecoration:"none", color: "red"}} to={`/ToDoAndBoard/ToDo`}>ToDoList</Link><br />
+            <Link style={{textDecoration:"none", color: "blue"}} to={`/ToDoAndBoard/Board`}>Board</Link>
         </>
     )
 }
